@@ -2,15 +2,15 @@
 # Config file
 ##################################
 LOG		  = yes
-DEBUG 		  = yes
+DEBUG 		  = no
 SANITIZE          = no
 STATIC		  = no
-VADWEBRTC	  = yes
-SRCDIR		  = /usr/local/src/medooze/mcu
-TARGET		  = /usr/local
-IMAGEMAGICK       = yes
+VADWEBRTC	  = no
+SRCDIR		  = /home/zwl/Code/test/runningrun/media-server
+TARGET		  = /home/zwl/Code/test/runningrun/media-server/target
+IMAGEMAGICK       = no
 STATIC_OPENSSL	  = yes
-OPENSSL_DIR	  = /usr/local/src/openssl_1_1_1-stable/
+OPENSSL_DIR	  = /usr/lib/x86_64-linux-gnu/
 STATIC_LIBSRTP	  = yes
-LIBSRTP_DIR	  = /usr/local/src/libsrtp-2.2.0/
+LIBSRTP_DIR	  = /code/libsrtp/build/
 
